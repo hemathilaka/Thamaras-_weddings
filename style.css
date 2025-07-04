@@ -44,6 +44,7 @@ header.hero { header.hero {
 .hero-text h1 {
   font-size: 3rem;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 .hero-text p {
   font-size: 1.2rem;
