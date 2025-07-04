@@ -101,7 +101,7 @@ body {
 .packages {
   padding: 60px 20px;
   text-align: center;
-  background: linear-gradient(to bottom, #ffffff, #eef2f7);
+  background-color: transparent;
 }
 
 .packages h2 {
