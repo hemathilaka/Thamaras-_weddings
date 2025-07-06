@@ -45,6 +45,10 @@ header.hero { header.hero {
   font-size: 3rem;
   margin-bottom: 0.5em;
   text-align: center;
+  image-resolution: from-image;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-text p {
   font-size: 1.2rem;
