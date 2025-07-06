@@ -166,7 +166,7 @@ body {
 }
 
 .card {
-  background: white;
+  background: rgba(255, 255, 255, 0.404);
   border-radius: 20px;
   padding: 30px;
   width: 300px;
