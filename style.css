@@ -196,4 +196,62 @@ button {
     flex-direction: column;
     align-items: center;
   }
+  .contact-page {
+  padding: 3em 2em;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 2em;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form button {
+  background-color: #000;
+  color: white;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.contact-info {
+  background: transparent;  /* ✅ Makes background clear */
+  padding: 1em;
+  color: #fff;              /* ✅ Optional: white text on dark image */
+  text-align: center;
+}
+
+.contact-info p {
+  margin: 0.5em 0;
+  font-size: 1.2rem;
+  background: transparent;  /* ✅ Ensures no white lines appear */
+  color: inherit;
+}
+
+.contact-info a {
+  color: #ffd;              /* Light yellowish link for visibility */
+  text-decoration: none;
+}
+p, a {
+  background-color: transparent !important;
+}
+
 }
